@@ -1,77 +1,135 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>LA CIENCIA WEB</title>
-    </head>
-    <body>
-
-        <header>
-            <h1>LA CIENCIA WEB</h1>
-
-            <h2>un portal de neurociencias experimentales</h2>
-            <span>home</span>
-            <span>noticias</span>
-            <span>campus</span>
-       </header>
-       
-        <main>
-
-            <img src="./iStock-1053434168.jpg" />  
-            
-            <section>
-
-                <articule>
-                
-
-                 <h3>articulo científico 1</h3>
-                    <DIV>
-                        <p>este es el cuerpo del primer artículo</p>
-                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsam obcaecati totam dolorum tempore voluptate mollitia eaque eos iure autem suscipit molestias, architecto quaerat! Consequatur consectetur in dolores doloribus. Ducimus?</p>
-                    </DIV>
-
-                </articule>
-
-             <hr />
-
-                <articule>
-
-                 <h3>articulo científico 2</h3>
-                  <p>este es un listado importante</p>
-
-                     <ol>
-                        <li>este es el ítem a</li>
-                        <li>este es el ítem b</li>
-                        <li>este es el ítem c</li>
-                     </ol>
-                </articule>
-
-             <hr />
-
-                <articule>
-
-                 <h3>articulo científico 3</h3>
-                    <p>este es un listado no ordenado</p>
-
-                    <ul>
-                    <li>elemento adicional</li>
-                    <li>elemento adicional segundo</li>
-                    <li>otro elemento adi</li>
-                    </ul>
-                </articule>
-
-             <hr />
-             
-            </section>
-        </main>
-
-        <footer>
-            <p>este es el footer de mi página. ahora voy a poner unos enlaces</p>
-
-            <a href="./contacto.html">formulario de contacto</a>
-
-
-        </footer>
         
+        <title>PHYSIO IVAN</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset04.css"/>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        
+
+    </head>
+
+    <body class="fondo">
+
+       
+
+            <header id="encabezado">           
+
+                <h1 class="title" id="principal">PHYSIO IVAN</h1>
+                <nav>
+                    <ul>
+                      <li><a href="#seccion-1">About Me</a></li>
+                      <li><a href="#seccion-2">Services</a></li>
+                      <li><a href="#seccion-3">Portfolio</a></li>
+                      <li><a href="#section-4">Contact</a></li>
+                    </ul>
+                </nav>
+
+
+            </header>
+        
+        <div>
+
+            <main>
+                <div>
+                    <h2 class="title"> Physiotherapy Startup | Fitness Enthusiast </h2>
+                </div>           
+            
+            
+                <section id="seccion-1">
+                
+                
+                    <articule>
+
+                        <div>
+                            <h3 class="title"> About Me</h3>
+                            <p> Welcome to my portfolio! I am passionate about physiotherapy and promoting healthy fitness habits. Here, you'll find information about my journey and expertise.</p>
+
+
+                        </div>
+
+                    </articule>
+                </section>
+
+
+
+                <section id="seccion-2">
+
+                    <article>
+
+
+                        <div class="video-container">
+
+                            <video autoplay muted loop id="background-video">
+                                <source src="video (2160p).mp4" type="video/mp4">                        
+                            </video>
+
+                            <div class="text-container">
+                                <h2>Services</h2>
+
+                                <p>Offering personalized physiotherapy services and fitness programs to enhance overall well-being</p>
+                            </div>
+
+                        </div>
+                </section>        
+                
+                <section id="seccion-3">
+
+                        <h3 class="title">Portfolio</h3>
+                        <div>
+                            <p>Explore my achievements and projects in the field of physiotherapy and fitness.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsam obcaecati totam dolorum tempore voluptate mollitia eaque eos iure autem suscipit molestias, architecto quaerat! Consequatur consectetur in dolores doloribus. Ducimus?</p>
+                        </div>
+
+                    </articule>
+
+                    <hr />
+
+                    <articule>
+
+                        <div id="cards-container"> 
+
+                            <div class="cards">
+                                <img src="pexels-mikhail-nilov-7529994.jpg" class="imagen"/>
+                            </div>
+    
+                            <div class="cards">
+                                <img src="pexels-greta-hoffman-7674820.jpg" class="imagen"/>
+    
+                            </div>
+    
+                            <div class="cards">                    
+                           
+                                <img src="pexels-andrea-piacquadio-3760093.jpg" class="imagen"/>
+    
+                            </div>
+                        </div>                    
+
+
+                    </articule>        
+             
+                
+                </section>
+             
+
+            </main>
+
+        </div>
+
+        <section id="seccion-4">
+            <footer>
+                <h3>Contact</h3>
+                <p>Get in touch with me to discuss how we can collaborate to achieve your health and fitness goals.</p>
+    
+                <a href="./contacto.html">formulario de contacto</a>
+    
+    
+            </footer>          
+
+        </section>
+
 
     </body>
     </html>
